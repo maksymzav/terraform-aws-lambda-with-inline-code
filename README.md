@@ -7,7 +7,7 @@ This module creates a Lambda function, as well as its IAM role and CloudWatch Lo
 ```tf
 module "lambda" {
   source  = "maksymzav/lambda-with-inline-code/aws"
-  version = "~> 1.2"
+  version = "~> 1.0"
 
   function_name = "example"
   description   = "This is an example"
