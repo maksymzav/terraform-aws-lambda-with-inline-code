@@ -1,3 +1,7 @@
 .terraform*
 /_test/.terraform
 /_test/.terraform.lock.hcl
+/_test/.terraform*
+/_test/terraform.tfstate
+/_test/terraform.tfstate.backup
+.idea
