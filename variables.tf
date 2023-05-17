@@ -123,3 +123,10 @@ VPC configuration of the Lambda function:
 If `vpc_config` is `null` the Lambda function will not be placed into a VPC.
 EOS
 }
+
+variable "publish" {
+  type    = bool
+  default = false
+
+  description = "Whether to publish creation/change as new Lambda Function Version."
+}

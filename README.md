@@ -17,6 +17,7 @@ module "lambda" {
   memory_size                    = 128
   timeout                        = 3
   reserved_concurrent_executions = 1
+  publish                        = true
 
   environment_variables = {
     NODE_ENV = "production"

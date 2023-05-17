@@ -7,6 +7,7 @@ resource "aws_lambda_function" "this" {
   memory_size                    = var.memory_size
   timeout                        = var.timeout
   reserved_concurrent_executions = var.reserved_concurrent_executions
+  publish                        = var.publish
 
   layers = var.layers
 
